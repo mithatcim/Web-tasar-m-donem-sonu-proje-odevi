@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(26,43,69);
+}
+.radius{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.resim-info{/* slyatın altı */
+    background-color: rgb(18,18,18);
+    user-select: none;
+}
+.info-baslik{
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    animation: baslik linear infinite 2s;
+    width: 350px;
+    transition:0.3s;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+@keyframes baslik{
+    0%{rotate: 2deg;}
+    25%{rotate: -2deg;}
+    50%{rotate: 2deg;}
+    75%{rotate: -2deg;}
+    100%{rotate: 2deg;}
+}
+.info-baslik:hover{
+    scale: 1.1;
+    text-shadow:
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162);
+}
+
+.yuvarlak-arkaplan{/* yuvarlak arkaplan */
+    position: absolute;
+    top: 20px;
+    left: 30px;    
+    width: 320px;
+    transition: 0.6s;
+    font-weight: bold;
+    color: rgb(99, 94, 94);
+}
+.yuvarlak-arkaplan:hover{
+    color: rgb(110, 10, 10);
+}
+
+.kitap-text{/* esinlenme başlık */
+    position: absolute;
+    top:15px;
+    left: 100px;
+}
+.kitap-resmi{/* yuvarlak arkaplana gelen kitap resmi */
+    position: absolute;
+    top: 28px;
+    left: 33px;
+}
+.aciklama{/* slyatın açıklaması */
+    margin-top: 100px;
+    color: #fff;
+    padding:0 20px;
+    transition: 0.4s;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.aciklama:hover{
+    scale: 1.1;
+    text-shadow: 
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162);
+}
+.header{
+    user-select: none;
+}
+.header > h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162),
+    0 0 10px rgb(170, 1, 162);
+}
+.header p{
+    font-size: 23px;
+    width: 70%;
+    font-weight: 500;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+/******** FOOTER ************/
+.gecis {
+    box-shadow: 0 0 15px rgb(126, 0, 175),
+    0 0 15px rgb(126, 0, 175),
+    0 0 15px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175);
+}
+.footer{
+    height: 300px;
+    background-color: rgb(18,18,18);
+    margin-top: 100px;
+    user-select: none;
+}
+.col > ul > li{
+    top: 0;
+    left: 0;
+    position: relative;
+    list-style: none;
+    display: inline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 25px;
+    transition: 0.4s;
+    cursor: default;
+    font-weight: 900;
+    color: #fff;
+}
+.col > ul > li:hover{
+    color: rgb(133, 18, 10);
+}

@@ -1,0 +1,554 @@
+body{
+    background:linear-gradient(rgb(68, 53, 53)20%,rgb(34, 34, 43)60%,rgb(2, 14, 36)100%);
+}
+/* Gradient body rkaplan */
+
+.yazitipi-1{
+    font-family: 'Rubik Vinyl', cursive;
+}
+.yazitipi-2{
+    font-family: 'Rubik 80s Fade', cursive;
+}
+.i-katil{
+    font-size: 40px;
+}
+.i-kurban{
+    font-size: 40px;
+}
+.i-text{
+    margin-left:10px ;
+    margin-right: 10px;
+    font-size: 30px;
+    color:rgb(58, 206, 206);
+}
+.ovye{
+    text-shadow: 0 0 2px #fff,
+    0 0 2px #fff,
+    0 0 2px #fff,
+    0 0 2px #fff,
+    0 0 2px #fff,
+    0 0 2px #fff,
+    0 0 2px #fff;
+    animation: linear infinite 1.5s animate2;
+    font-weight: bold;
+}
+@keyframes animate2 {
+    0%{transform:rotate(2deg);}
+    25%{transform:rotate(-2deg);}
+    50%{transform:rotate(2deg);}
+    75%{transform:rotate(-2deg);}
+    100%{transform:rotate(2deg);}
+    
+}
+.ust-kutu{
+    padding: 40px;
+    border-radius: 30px;
+    background-color: rgb(60, 67, 75);
+    box-shadow: 
+    0 0 15px rgb(85, 87, 90),
+    0 0 15px rgb(85, 87, 90),
+    0 0 15px rgb(85, 87, 90),
+    0 0 15px rgb(85, 87, 90),
+    0 0 15px rgb(85, 87, 90),
+    0 0 15px rgb(85, 87, 90);
+}
+button{
+    background:transparent;
+    outline: none;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.kurban{
+    transition: 0.4s;
+}
+.kurban:hover{
+    box-shadow: 0 0 10px rgb(3, 14, 61),
+    0 0 20px rgb(3, 14, 61),
+    0 0 40px rgb(3, 14, 61),
+    0 0 80px rgb(3, 14, 61);
+    transform: scale(1.04);
+}
+.katil{
+    background: rgb(163, 52, 44);
+    box-shadow: 0 0 20px rgb(228, 54, 42);
+    transition: 0.4s;
+}
+.katil:hover{
+    box-shadow: 0 0 10px rgb(133, 18, 10),
+    0 0 20px rgb(133, 18, 10),
+    0 0 40px rgb(133, 18, 10),
+    0 0 80px rgb(133, 18, 10);
+    transform: scale(1.04);
+}
+.dropdown-btn button h2 a{
+    text-decoration: none;
+    color: rgb(60, 161, 161);
+}
+
+
+.katil-video{
+    border-radius: 24px;
+    box-shadow:
+    0 0 15px rgb(80, 33, 30),
+    0 0 15px rgb(80, 33, 30),
+    0 0 15px rgb(80, 33, 30);
+}
+/* SÜSLEME İMG TRANSPARENT */
+.susleme-img{
+    position: absolute;
+    top: 470px;
+    left: 370px;
+    transform: rotate(10deg);
+}
+/*************Katil Content**************/
+.katil-contents{/** katil container divi **/
+    padding-top: 80px;
+
+}
+.katil-arkaplan{/* katilin arkaplan resmi */
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 480px;
+    height: 300px;
+}
+.katil-resim{/* katilin resmi */
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    width: 300px;
+    height: 250px;
+    transition: 0.4s;
+    cursor:cell;
+}
+.katil-resim:hover{
+    transform: scale(1.1);
+}
+.yapim-turu-text-arkaplan{/* başlıgın solundaki arkaplan resmi */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.yapim-turu-text{/* beta/DLC yazıları */
+    position: absolute;
+    top: 6px;
+    left: 0;
+    user-select: none;
+}
+.katil-isim-baslik{/* Katil isim */
+    color: rgb(133, 18, 10);
+    user-select: none;
+    text-shadow: 
+    0 0 10px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255);
+    padding-left: 130px;
+}
+.katil-iconu{
+    position: absolute;
+    top: 5px;
+    left: 19px;
+}
+.rol{
+    position: absolute;
+    top: 17px;
+    left: 78px;
+    
+    user-select: none;
+}
+.rol span:nth-child(1){
+    color: rgb(75, 72, 72);
+}
+.rol span:nth-child(2){
+    width: 0;
+    margin-left: 5px;
+    
+}
+.katil-zorluk-seviyesi{/* zorluk seviyesi img */
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+/*********************** ZORLUK YAZILARI */
+.zorluk{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    user-select: none;
+}
+.zorluk span:nth-child(1){
+    color: rgb(75, 72, 72);
+}
+.zorluk span:nth-child(2){
+    margin-left: 5px;
+}
+
+.film-kitap-img{
+    position: absolute;
+    top: 127px;
+    left: 20px;
+}
+.film{
+    position: absolute;
+    top: 135px;
+    left: 80px;
+    cursor: default;
+}
+.film span:nth-child(1){
+    color: rgb(75, 72, 72);
+}
+.film span:nth-child(2){
+    margin-left: 5px;
+}
+.film-text{
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+}
+.film-text:hover{
+    color: rgb(128, 2, 2);
+    text-shadow: 
+    0 0 10px rgb(48,3,3),
+    0 0 10px rgb(48,3,3),
+    0 0 10px rgb(48,3,3),
+    0 0 10px rgb(48,3,3),
+    0 0 10px rgb(48,3,3),
+    0 0 10px rgb(48,3,3) ;
+}
+/********************** ZORLUK YAZILARI */
+.katil-info-1{/* Katil açıklama yazısı */
+    height: 120px;
+    overflow:auto;
+    transition: 0.4s;
+    cursor: default;
+    font-weight: bold;
+}
+.katil-info-1:hover{
+    transform: scale(1.04);
+    text-shadow: 
+    0 0 10px rgb(228, 54, 42),
+    0 0 10px rgb(228, 54, 42),
+    0 0 10px rgb(228, 54, 42);
+    color:#ffff;
+}
+.guc-ve-yetenek{
+    height: 300px;
+    overflow-y: auto;
+    font-weight: bold;
+}
+.guc-yetenek-baslik{/* guc ve yetenek basligi */
+    color: #fff;
+    margin-left: 25%;
+    font-size: 25px;
+    border-radius: 20px;
+    padding-left:10px ;
+    padding-right: 10px;
+    border-bottom: solid 3px rgb(255, 255, 255);
+    user-select: none;
+    cursor: default;
+    animation: baslig-animate linear infinite 3s;
+}
+.infolar:hover{
+    user-select: none;
+    cursor:default;
+    scale: 1.003;
+    color: rgb(231, 13, 13);
+    text-shadow: 
+    0 0 10px rgb(61, 0, 85),
+    0 0 10px rgb(61, 0, 85),
+    0 0 10px rgb(61, 0, 85),
+    0 0 10px rgb(61, 0, 85),
+    0 0 10px rgb(61, 0, 85),
+    0 0 10px rgb(61, 0, 85),
+    0 0 10px rgb(61, 0, 85);
+}
+.infolar-perk:hover{
+    user-select: none;
+    cursor: default;
+    scale: 1.003;
+    color: rgb(255, 0, 179);
+    text-shadow: 
+    0 0 10px rgb(255, 115, 1),
+    0 0 10px rgb(255, 115, 1),
+    0 0 10px rgb(255, 115, 1),
+    0 0 10px rgb(255, 115, 1),
+    0 0 10px rgb(255, 115, 1),
+    0 0 10px rgb(255, 115, 1),
+    0 0 10px rgb(255, 115, 1),
+    0 0 10px rgb(255, 115, 1);
+}
+.guc-ve-yetenek img{
+    margin-top: 15px;
+    cursor: pointer;
+    margin-right: 35px;
+    border:solid 5px rgb(48,3,3);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.guc-ve-yetenek img:hover{
+    box-shadow: 0 0 20px rgb(58, 206, 206);
+}
+.guc-ve-yetenek img:focus{
+    box-shadow: 
+    0 0 20px rgb(172, 172, 172),
+    0 0 20px rgb(172, 172, 172),
+    0 0 20px rgb(172, 172, 172);
+    transform: scale(1.1);
+}
+/* GUC VE YETENEKLER */
+.pasif-info{
+    visibility: hidden;
+    position: absolute;
+    overflow:hidden;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: 0.4s;
+    
+}
+.pasif-info > h5 >span{
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pasif:focus ~ .pasif-info{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.perk1-info{
+    visibility: hidden;
+    position: absolute;
+    overflow: auto;
+    color: #fff;
+    opacity: 0;
+    transition: 0.4s;
+}
+.perk1-info > h5 >span{
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.perk1:focus ~ .perk1-info{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.perk2-info{
+    visibility: hidden;
+    position: absolute;
+    overflow: auto;
+    color: #fff;
+    opacity: 0;
+    transition: 0.4s;
+}
+.perk2-info > h5 >span{
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.perk2:focus ~ .perk2-info{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.perk3-info{
+    visibility: hidden;
+    position: absolute;
+    overflow: auto;
+    color: #fff;
+    opacity: 0;
+    transition: 0.4s;
+}
+.perk3-info > h5 >span{
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.perk3:focus ~ .perk3-info{
+    visibility: visible;
+    opacity: 1;
+    
+}
+/* GUC VE YETENEKLER */
+/*************Katil Content**************/
+
+.tuzakci-hakkinda{
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: default;
+    
+    border-radius: 30px;
+}
+.tuzakci-hakkinda:hover{
+    transform: scale(1.02);
+    box-shadow: 
+    0 0 20px rgb(255, 255, 255),
+    0 0 20px rgb(255, 255, 255),
+    0 0 20px rgb(255, 255, 255);
+    color: #fff;
+    text-shadow:
+    0 0 10px rgb(58, 206, 206),
+    0 0 10px rgb(58, 206, 206),
+    0 0 10px rgb(58, 206, 206),
+    0 0 10px rgb(58, 206, 206),
+    0 0 10px rgb(58, 206, 206);
+}
+.hakkinda-baslik{
+    padding: 10px;
+    text-shadow: 
+    0 0 20px rgb(9, 156, 161),
+    0 0 20px rgb(9, 156, 161),
+    0 0 20px rgb(9, 156, 161),
+    0 0 30px rgb(9, 156, 161),
+    0 0 40px rgb(9, 156, 161);
+    color: #fff;
+    cursor: pointer;
+}
+.hakkinda-baslik:hover{
+    animation: donder infinite 2.2s;
+}
+@keyframes donder{
+    0%{
+        transform: rotate(5deg);
+        text-shadow:
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3);
+    }
+    25%{
+        transform: rotate(-5deg);
+        text-shadow: 
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0);
+    }
+    50%{
+        transform: rotate(120deg);
+        text-shadow: 
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0);
+    }
+    75%{
+        transform: rotate(-120deg);
+        text-shadow: 
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0);
+    }
+    100%{
+        transform: rotate(5deg);
+        text-shadow:
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3),
+        0 0 10px rgb(48,3,3);
+    }
+}
+.ara-gecis{
+    box-shadow: 
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104);
+    transform: rotate(4deg);
+    margin: 10px 0;
+}
+.ara-gecis-2{
+    box-shadow: 
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104),
+    0 0 20px rgb(81, 104, 104);
+    transform: rotate(-4deg);
+    margin: 10px 0;
+}
+hr.hr-cizgi { 
+    height: 30px; 
+    border-style: solid; 
+    border-color: #ffffff; 
+    border-width: 3px 0 0 0; 
+    border-radius: 20px; 
+  } 
+  hr.hr-cizgi:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -30px; 
+    border-style: solid; 
+    border-color: #ffffff; 
+    border-width: 0 0 3px 0; 
+    border-radius: 60px; 
+  }
+
+
+  
+
+  /******** FOOTER ************/
+.gecis {
+    box-shadow: 0 0 15px rgb(126, 0, 175),
+    0 0 15px rgb(126, 0, 175),
+    0 0 15px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175);
+}
+.footer{
+    height: 300px;
+    background-color: rgb(18,18,18);
+    margin-top: 100px;
+    user-select: none;
+}
+.col > ul > li{
+    top: 0;
+    left: 0;
+    position: relative;
+    list-style: none;
+    display: inline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 25px;
+    transition: 0.4s;
+    cursor: default;
+    font-weight: 900;
+    color: #fff;
+}
+.col > ul > li:hover{
+    color: rgb(133, 18, 10);
+}

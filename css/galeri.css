@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(27,35,44);
+}
+li{
+    list-style: none;
+    display: inline;
+}
+.giris{
+    margin-top: 50px;
+    user-select: none;
+}
+.giris > span{
+    display: block;
+    margin-bottom: 50px;
+}
+.giris-text{
+    line-height: 50px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 50px;
+    font-weight:900 ;
+    margin-left: 100px;
+    text-shadow: 
+    0 0 10px rgb(83, 28, 28),
+    0 0 10px rgb(83, 28, 28),
+    0 0 10px rgb(83, 28, 28),
+    0 0 10px rgb(83, 28, 28),
+    0 0 10px rgb(83, 28, 28),
+    0 0 10px rgb(83, 28, 28),
+    0 0 10px rgb(83, 28, 28),
+    0 0 10px rgb(83, 28, 28);
+}
+.giris ul li:nth-child(1){
+    margin-left: 60px;
+}
+.buton{
+    background-color: rgba(111,119,124,.1);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius:5px;
+    cursor: default;
+    transition: 0.3s;
+    font-weight: 500;
+}
+.buton:hover{
+    background-color: rgba(59, 56, 56, 0.7);
+}
+.buton:focus{
+    background-color: rgba(1, 8, 15, 0.3);
+    border-bottom:2px solid rgb(255, 255, 255);
+    border-image-source:linear-gradient(
+        to right,
+        rgb(0, 0, 0)10%,
+        rgb(253, 3, 3)50%,
+        rgb(82, 14, 5)80%,
+        rgb(0, 0, 0)100%
+     );
+     border-image-slice: 1;
+     transform: scale(1.1);
+     text-shadow: 
+     0 0 10px rgb(160, 0, 133),
+     0 0 10px rgb(160, 0, 133),
+     0 0 10px rgb(160, 0, 133),
+     0 0 10px rgb(160, 0, 133),
+     0 0 10px rgb(160, 0, 133),
+     0 0 10px rgb(160, 0, 133);
+}
+
+/************  Galeri Content *****************/
+.kart{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+.kart:hover{
+    border:3px solid rgb(6, 119, 128);
+    border-image-source:linear-gradient(
+        to right,
+        rgb(150, 0, 0)10%,
+        rgb(126, 0, 143)100%
+     );
+     border-image-slice: 50;
+}
+.kart-baslik{
+    color: #fff;
+    font-weight: 600;
+    transition: 0.4s;
+    cursor: default;
+    user-select: none;
+    width: 250px;
+    height: 30px;
+    left: 0;
+}
+.kart-baslik:hover{
+    scale: 1.07;
+    text-shadow: 
+    0 0 10px rgb(149, 4, 168),
+    0 0 10px rgb(149, 4, 168),
+    0 0 10px rgb(149, 4, 168),
+    0 0 10px rgb(149, 4, 168),
+    0 0 10px rgb(149, 4, 168),
+    0 0 10px rgb(149, 4, 168);
+}
+.kart-bilgileri{
+    background-color:rgb(18,18,18);
+    height: 120px;
+}
+.kart-buton{
+    border: 1px solid #fff;
+    width: 150px;
+    padding: 5px 30px;
+    float: right;
+    cursor: default;
+    user-select: none;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.4s;
+    margin-top: 30px;
+}
+.kart-buton > span:nth-child(2)
+{
+    margin-left: 20px;
+}
+.kart-buton:hover{
+    background-color: rgba(250, 5, 5, 0.4);
+}
+
+
+/******** FOOTER ************/
+.gecis {
+    box-shadow: 0 0 15px rgb(126, 0, 175),
+    0 0 15px rgb(126, 0, 175),
+    0 0 15px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175),
+    0 0 65px rgb(126, 0, 175);
+}
+.footer{
+    margin-top: 10px;
+    height: 300px;
+    background-color: rgb(18,18,18);
+    user-select: none;
+}
+.col > ul > li{
+    top: 0;
+    left: 0;
+    position: relative;
+    list-style: none;
+    display: inline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 25px;
+    transition: 0.4s;
+    cursor: default;
+    font-weight: 900;
+    color: #fff;
+}
+.col > ul > li:hover{
+    color: rgb(133, 18, 10);
+}

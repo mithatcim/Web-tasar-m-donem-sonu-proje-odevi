@@ -1,0 +1,191 @@
+
+/*  DBD GIF LOGO CONTENT - START  */
+.gif{
+    animation: gif-animasyonu linear infinite 7s;
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 210px;
+    max-height: 210px;
+    border-bottom: solid 1px rgb(15, 91, 163);
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    margin-top: 20px;
+    transition: 0.5s;
+
+}
+@keyframes gif-animasyonu{
+
+    0%,70%{
+        opacity: 0.01;
+        transform: scale(1);
+    }
+    15%,75%,100%{
+        opacity: 1;
+        background: url(/texture/loading.gif);
+        background-repeat: no-repeat;
+        box-shadow: 0 0 10px rgb(15, 91, 163), 0 0 20px rgb(15, 91, 163), 0 0 40px rgb(15, 91, 163);
+        transform: scale(1.1);
+    }
+}
+.ben{
+    animation: deneme linear infinite 1.5s;
+    text-shadow:
+    0 0 10px rgb(0, 46, 131),
+    0 0 10px rgb(0, 46, 131),
+    0 0 10px rgb(0, 46, 131),
+    0 0 10px rgb(0, 46, 131),
+    0 0 10px rgb(0, 46, 131),
+    0 0 10px rgb(0, 46, 131),
+    0 0 10px rgb(0, 46, 131);
+    color: rgb(255, 255, 255);
+}
+@keyframes deneme{
+    0%{
+        rotate: 5deg;
+    }
+    25%{
+        rotate: -5deg;
+    }
+    50%{
+        rotate: 5deg;
+    }
+    75%{
+        rotate: -5deg;
+    }
+    100%{
+        rotate: 5deg;
+    }
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 30px;
+}
+i{
+    padding: 15px;
+    transition: 0.5s;
+}
+.instagram:hover{
+    border-left: 1px solid rgb(6, 119, 128);
+    border-bottom:2px solid rgb(6, 119, 128);
+    border-image-source:linear-gradient(
+        to right,
+        rgb(255, 91, 15)10%,
+        rgb(14, 161, 219)100%
+     );
+     border-image-slice: 20;
+     transform: scale(1.1);
+
+     -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(161, 0, 0, 0.533));
+     color:rgba(255, 91, 23, 0.5);
+}
+.linkedin{
+    transition: 0.5s;
+}
+.linkedin:hover{
+    border-bottom:2px solid rgb(6, 119, 128);
+    border-image-source:linear-gradient(
+        to right,
+        rgb(255, 91, 15)10%,
+        rgb(14, 161, 219)100%
+     );
+     border-image-slice: 2;
+     transform: scale(1.1);
+
+     -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(161, 0, 0, 0.533));
+     color:rgba(255, 91, 23, 0.5);
+}
+.githup{
+    transition: 0.5s;
+}
+.githup:hover{
+    
+    border-right: 1px solid rgb(6, 119, 128);
+    border-bottom:2px solid rgb(6, 119, 128);
+    border-image-source:linear-gradient(
+        to right,
+        rgb(14, 161, 219)10%,
+        rgb(255, 91, 15)100%
+     );
+     border-image-slice: 20;
+     transform: scale(1.1);
+
+     -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(161, 0, 0, 0.533));
+     color:rgba(255, 91, 23, 0.5);
+}
+/*  DBD GIF LOGO CONTENT - END  */
+
+/*  DBD ICON LINKLER - START  */
+.steam{
+    transition: 0.2s;
+}
+.steam:hover{
+    transform: scale(1.1);
+    color:rgb(15, 91, 163);
+}
+.windows{
+    transition: 0.2s;
+}
+.windows:hover{
+    transform: scale(1.2);
+    color: rgb(14, 161, 219);
+}
+.playstation{
+    transition: 0.2s;
+}
+.playstation:hover{
+    transform: scale(1.2);
+    color:rgba(78, 76, 76, 0.533);
+}
+.xbox{
+    transition: 0.2s;
+}
+.xbox:hover{
+    transform: scale(1.2);
+    color:rgb(0, 160, 21);
+}
+/*  DBD ICON LINKLER - START  */
+
+.yazitipi1{
+    font-family: 'Rubik Vinyl', cursive;
+}
+.yazitipi2{
+    font-family: 'Rubik Gemstones', cursive;
+}
+/*  INDEX CONTENTS - START  */
+.icerik{
+    background: rgb(17,19,20);
+}
+.icerik-video{/* YOUTUBE iframe CSS - START */
+    border-radius: 35px;
+    box-shadow: 0 0 30px rgb(105, 186, 197);
+}/*  YOUTUBE iframe CSS - END  */
+.video-alti-butonlar ul li a{
+    color:rgb(105, 186, 197);
+}
+.video-alti-butonlar ul li a i:hover{
+    transform: scale(1.2);
+    text-shadow: 0 0 50px rgb(4, 223, 252);
+}
+/*  ODEV YAZISI ANIMASYONU - START  */
+.son-yazi h2{
+    line-height: 0.40em;
+}
+.son-yazi{
+    text-transform: uppercase;
+    -webkit-box-reflect: below 0 linear-gradient(transparent,#0008);
+    animation: son-yazi-animasyonu 5s linear infinite;
+}
+@keyframes son-yazi-animasyonu{
+    0%,18%,20%,50.1%,60%,65%,80%,90.1%,92%{
+        text-shadow: none;
+        color:#0e3742;
+
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: rgb(255,255,255);
+        text-shadow: 0 0 50px rgb(255, 91, 15);
+    }
+}
+/*  ODEV YAZISI ANIMASYONU - END  */
