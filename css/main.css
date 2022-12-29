@@ -21,6 +21,11 @@
 /********* SCROL BAR HAZIR KOD*********/
 body{
     overflow-x: hidden;
+    outline: 15px solid rgb(0, 0, 0);
+    position: relative;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* USTMENU CSS KODLARI - START */
 .ustmenu-arkaplan{
